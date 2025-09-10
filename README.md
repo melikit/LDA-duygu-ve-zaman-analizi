@@ -1,40 +1,107 @@
-#BBCNEWS Veri Setleri - LDA, Duygu ve Zaman Analizi
-Proje Özeti
-Bu proje, BBCNEWS veri seti üzerinde doğal dil işleme teknikleri kullanılarak gerçekleştirilmiş kapsamlı bir analiz çalışmasıdır. Çalışmanın amacı, haber metinlerindeki temel konu başlıklarını ortaya çıkarmak, metinlerin duygu durumlarını analiz etmek ve haberlerin zamana bağlı trendlerini incelemektir. Bu bağlamda, Latent Dirichlet Allocation (LDA) algoritması ile konu modelleme, çeşitli duygu analiz yöntemleri ile metin duygu sınıflandırması ve zaman serisi analizi teknikleri kullanılmıştır.
+# LDA-Duygu-ve-Zaman-Analizi
 
-Kullanılan Veri Seti
-BBCNEWS veri seti, farklı haber kategorilerinde toplanmış binlerce haber metninden oluşmaktadır. Veri seti, hem konu modelleme hem de duygu analizinde sağlam bir temel oluşturmuştur. Verinin kategorik yapısı ve zengin içeriği sayesinde çok yönlü analizler yapılabilmiştir.
+Türkçe haber metinlerinde **Latent Dirichlet Allocation (LDA)** tabanlı konu modelleme, duygu analizi ve zaman serisi analizi yöntemlerini bir araya getiren kapsamlı bir grup projesidir.
 
-Yöntemler ve Teknikler
-Latent Dirichlet Allocation (LDA): Haber metinleri içerisindeki gizli konu yapılarının keşfedilmesi için uygulanmıştır. Bu yöntem, belgelerin hangi konulara ne derece ait olduğunu istatistiksel olarak belirlemeye olanak sağlar.
+---
 
-Duygu Analizi: Metinlerin olumlu, olumsuz veya nötr duygu taşıyıp taşımadığı çeşitli doğal dil işleme teknikleri ve duygu sözlükleri kullanılarak analiz edilmiştir.
+## İçindekiler
 
-Zaman Serisi Analizi: Haberlerin yayınlanma tarihleri baz alınarak konu ve duygu eğilimleri zaman içerisinde incelenmiştir. Bu analiz, güncel olayların medya üzerindeki yansımasını değerlendirmeye yardımcı olmuştur.
+1. [Proje Özeti](#proje-özeti)  
+2. [Kullanılan Veri Seti](#kullanılan-veri-seti)  
+3. [Yöntemler](#yöntemler)  
+   - Veri Ön İşleme  
+   - LDA Modelleme  
+   - Duygu Analizi  
+   - Zaman Serisi Analizi  
+4. [Proje Aşamaları](#proje-aşamaları)  
+5. [Elde Edilen Sonuçlar](#elde-edilen-sonuçlar)  
+6. [Proje Ekibi](#proje-ekibi)  
+7. [Kullanım Alanları ve Önemi](#kullanım-alanları-ve-önemi)  
+8. [Lisans](#lisans)
 
-Proje Adımları
-Veri ön işleme: Temizleme, normalleştirme ve gerekli formatlama işlemleri gerçekleştirilmiştir.
+---
 
-LDA modeli eğitimi: Farklı konu sayıları denenerek en uygun model seçilmiştir.
+## Proje Özeti
 
-Duygu analizi algoritmalarının uygulanması: Haber metinleri duygu sınıflandırmasına tabi tutulmuştur.
+BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 
-Zaman serisi oluşturma: Analiz sonuçları zaman ekseninde görselleştirilmiştir.
+- Gizli konu başlıkları tespit edilmiş,  
+- Haberlerin duygu durumları sınıflandırılmış,  
+- Konu ve duygu eğilimleri zaman ekseninde görselleştirilmiştir.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
-Sonuçların yorumlanması ve raporlanması.
+---
 
-Elde Edilen Sonuçlar
-Haber metinleri içerisinde öne çıkan başlıca konu kümeleri tespit edilmiştir.
+## Kullanılan Veri Seti
 
-Duygu analizi sayesinde, haberlerin genel duygu dağılımı ortaya konmuş ve belirli kategorilerdeki duygu değişimleri gözlemlenmiştir.
+**BBCNEWS veri seti**: Farklı kategorilerde toplanmış binlerce haber içeriklerini içermekte olup hem duygu analizi hem de konu modelleme için sağlam bir temel sunmuştur.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
-Zaman serisi analizleri ile önemli dönemlerdeki duygu ve konu trendleri başarıyla izlenmiştir.
+---
 
-Proje Ekibi
-Bu çalışma, farklı alanlarda uzmanlaşmış takım üyelerinin iş birliğiyle gerçekleştirilmiştir:
-Cansu Kahve
-Melike Tengilimoğlu
+## Yöntemler
 
-Projenin Önemi ve Kullanımı
-Bu proje, medya analizlerinde önemli bir araç olarak kullanılabilir. LDA ve duygu analizi ile haberlerin içeriği ve toplumsal algı üzerine değerli bilgiler sağlanabilir. Ayrıca, zaman bazlı trendlerin izlenmesi, karar verme süreçlerinde yardımcı olabilir.
+### 1. Veri Ön İşleme  
+- Temizleme, normalize etme ve uygun formata getirme adımları gerçekleştirilmiştir.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
+### 2. LDA Modelleme  
+- Latent Dirichlet Allocation (LDA) uygulanarak haber metinlerinin içindeki gizli konu yapıları ortaya çıkarılmıştır.  
+- Farklı konu sayıları denenerek en uygun model seçilmiştir.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+### 3. Duygu Analizi  
+- Metinlerin olumlu, olumsuz veya nötr duygu taşımaları yönünden sınıflandırılması yapılmıştır.  
+- Farklı doğal dil işleme teknikleri ve duygu sözlükleri kullanılmıştır.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+### 4. Zaman Serisi Analizi  
+- Haberlerin yayın tarihine göre duygu ve konu trendleri analiz edilmiştir.  
+- Zaman içerisindeki değişimler görsel olarak incelenmiştir.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+---
+
+## Proje Aşamaları
+
+1. Veri ön işleme  
+2. LDA model eğitimi ve optimizasyon  
+3. Duygu analiz algoritmalarının uygulanması  
+4. Zaman serisi oluşturma ve görselleştirme  
+5. Sonuçların yorumlanması ve raporlanması  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+---
+
+## Elde Edilen Sonuçlar
+
+- Haber içeriklerindeki ana konu kümeleri başarıyla tespit edilmiştir.  
+- Duygu analizi sayesinde haberlerin genel duygu dağılımı ortaya konmuş; belirli kategorilerdeki duygu dalgalanmaları gözlenmiştir.  
+- Zaman serisi analizleri, önemli dönemlerdeki duygu ve konu trendlerini başarılı şekilde ortaya koymuştur.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+---
+
+## Proje Ekibi
+
+- **Cansu Kahve**  
+- **Melike Tengilimoğlu**  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+---
+
+## Kullanım Alanları ve Önemi
+
+- Medya analizleri ve halk algısını değerlendirmek için değerli bir araçtır.  
+- LDA ve duygu analizi ile haber içeriklerine dair zengin kavrayış sunar.  
+- Zaman bazlı trend izlemesi, özellikle karar destek süreçlerinde faydalı olabilir.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+---
+
+## Lisans
+
+**MIT Lisansı**yle paylaşılmıştır.  
+([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
+
+---
