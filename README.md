@@ -28,14 +28,12 @@ BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 - Gizli konu başlıkları tespit edilmiş,  
 - Haberlerin duygu durumları sınıflandırılmış,  
 - Konu ve duygu eğilimleri zaman ekseninde görselleştirilmiştir.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
 
 ## Kullanılan Veri Seti
 
 **BBCNEWS veri seti**: Farklı kategorilerde toplanmış binlerce haber içeriklerini içermekte olup hem duygu analizi hem de konu modelleme için sağlam bir temel sunmuştur.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
 
@@ -43,22 +41,18 @@ BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 
 ### 1. Veri Ön İşleme  
 - Temizleme, normalize etme ve uygun formata getirme adımları gerçekleştirilmiştir.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ### 2. LDA Modelleme  
 - Latent Dirichlet Allocation (LDA) uygulanarak haber metinlerinin içindeki gizli konu yapıları ortaya çıkarılmıştır.  
 - Farklı konu sayıları denenerek en uygun model seçilmiştir.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ### 3. Duygu Analizi  
 - Metinlerin olumlu, olumsuz veya nötr duygu taşımaları yönünden sınıflandırılması yapılmıştır.  
 - Farklı doğal dil işleme teknikleri ve duygu sözlükleri kullanılmıştır.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ### 4. Zaman Serisi Analizi  
 - Haberlerin yayın tarihine göre duygu ve konu trendleri analiz edilmiştir.  
 - Zaman içerisindeki değişimler görsel olarak incelenmiştir.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
 
@@ -69,8 +63,6 @@ BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 3. Duygu analiz algoritmalarının uygulanması  
 4. Zaman serisi oluşturma ve görselleştirme  
 5. Sonuçların yorumlanması ve raporlanması  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
-
 ---
 
 ## Elde Edilen Sonuçlar
@@ -78,7 +70,6 @@ BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 - Haber içeriklerindeki ana konu kümeleri başarıyla tespit edilmiştir.  
 - Duygu analizi sayesinde haberlerin genel duygu dağılımı ortaya konmuş; belirli kategorilerdeki duygu dalgalanmaları gözlenmiştir.  
 - Zaman serisi analizleri, önemli dönemlerdeki duygu ve konu trendlerini başarılı şekilde ortaya koymuştur.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
 
@@ -86,7 +77,6 @@ BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 
 - **Cansu Kahve**  
 - **Melike Tengilimoğlu**  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
 
@@ -95,13 +85,11 @@ BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
 - Medya analizleri ve halk algısını değerlendirmek için değerli bir araçtır.  
 - LDA ve duygu analizi ile haber içeriklerine dair zengin kavrayış sunar.  
 - Zaman bazlı trend izlemesi, özellikle karar destek süreçlerinde faydalı olabilir.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
 
 ## Lisans
 
 **MIT Lisansı**yle paylaşılmıştır.  
-([github.com](https://github.com/melikit/LDA-duygu-ve-zaman-analizi))
 
 ---
