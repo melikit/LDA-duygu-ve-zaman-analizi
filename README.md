@@ -1,95 +1,50 @@
-# LDA-Duygu-ve-Zaman-Analizi
+# LDA - Sentiment and Time Analysis
+A comprehensive group project that combines Latent Dirichlet Allocation (LDA)-based topic modeling, sentiment analysis, and time series analysis methods on Turkish news texts.
 
-Türkçe haber metinlerinde **Latent Dirichlet Allocation (LDA)** tabanlı konu modelleme, duygu analizi ve zaman serisi analizi yöntemlerini bir araya getiren kapsamlı bir grup projesidir.
+#Project Summary
+Using the BBCNEWS dataset, the following analyses were performed on Turkish news texts:
+Hidden topic structures were identified,
+The sentiment states of the news articles were classified,
+Topic and sentiment trends were visualized over the time axis.
 
----
+# Dataset Used
+BBCNEWS dataset: Contains thousands of news contents collected from different categories and provides a solid foundation for both sentiment analysis and topic modeling.
 
-## İçindekiler
+# Methods
+1. Data Preprocessing
+  -Cleaning, normalization, and formatting steps were carried out.
+2. LDA Modeling
+  -Latent Dirichlet Allocation (LDA) was applied to reveal the hidden topic structures within the news texts.
+  -Different topic numbers were tested to select the most suitable model.
+3. Sentiment Analysis
+  -Texts were classified based on whether they carry positive, negative, or neutral sentiments.
+  -Various natural language processing techniques and sentiment lexicons were used.
+4. Time Series Analysis
+  -Sentiment and topic trends were analyzed according to the publication dates of the news articles.
+  -Changes over time were examined visually.
+   
+# Project Stages
+Data preprocessing
+LDA model training and optimization
+Application of sentiment analysis algorithms
+Creation and visualization of time series
+Interpretation and reporting of results
 
-1. [Proje Özeti](#proje-özeti)  
-2. [Kullanılan Veri Seti](#kullanılan-veri-seti)  
-3. [Yöntemler](#yöntemler)  
-   - Veri Ön İşleme  
-   - LDA Modelleme  
-   - Duygu Analizi  
-   - Zaman Serisi Analizi  
-4. [Proje Aşamaları](#proje-aşamaları)  
-5. [Elde Edilen Sonuçlar](#elde-edilen-sonuçlar)  
-6. [Proje Ekibi](#proje-ekibi)  
-7. [Kullanım Alanları ve Önemi](#kullanım-alanları-ve-önemi)  
-8. [Lisans](#lisans)
+# Results Obtained
+The main topic clusters within the news content were successfully identified.
+Through sentiment analysis, the overall sentiment distribution of the news was revealed, and sentiment fluctuations in specific categories were observed.
+Time series analyses successfully revealed topic and sentiment trends during significant periods.
 
----
+#Project Team
+Cansu Kahve
+Melike Tengilimoğlu
 
-## Proje Özeti
+# Application Areas and Importance
+A valuable tool for media analysis and evaluating public perception.
+Provides deep insights into news content through LDA and sentiment analysis.
+Time-based trend monitoring can be particularly useful in decision support processes.
 
-BBCNEWS veri seti kullanılarak Türkçe haber metinlerinde:
-
-- Gizli konu başlıkları tespit edilmiş,  
-- Haberlerin duygu durumları sınıflandırılmış,  
-- Konu ve duygu eğilimleri zaman ekseninde görselleştirilmiştir.  
-
----
-
-## Kullanılan Veri Seti
-
-**BBCNEWS veri seti**: Farklı kategorilerde toplanmış binlerce haber içeriklerini içermekte olup hem duygu analizi hem de konu modelleme için sağlam bir temel sunmuştur.  
-
----
-
-## Yöntemler
-
-### 1. Veri Ön İşleme  
-- Temizleme, normalize etme ve uygun formata getirme adımları gerçekleştirilmiştir.  
-
-### 2. LDA Modelleme  
-- Latent Dirichlet Allocation (LDA) uygulanarak haber metinlerinin içindeki gizli konu yapıları ortaya çıkarılmıştır.  
-- Farklı konu sayıları denenerek en uygun model seçilmiştir.  
-
-### 3. Duygu Analizi  
-- Metinlerin olumlu, olumsuz veya nötr duygu taşımaları yönünden sınıflandırılması yapılmıştır.  
-- Farklı doğal dil işleme teknikleri ve duygu sözlükleri kullanılmıştır.  
-
-### 4. Zaman Serisi Analizi  
-- Haberlerin yayın tarihine göre duygu ve konu trendleri analiz edilmiştir.  
-- Zaman içerisindeki değişimler görsel olarak incelenmiştir.  
-
----
-
-## Proje Aşamaları
-
-1. Veri ön işleme  
-2. LDA model eğitimi ve optimizasyon  
-3. Duygu analiz algoritmalarının uygulanması  
-4. Zaman serisi oluşturma ve görselleştirme  
-5. Sonuçların yorumlanması ve raporlanması  
----
-
-## Elde Edilen Sonuçlar
-
-- Haber içeriklerindeki ana konu kümeleri başarıyla tespit edilmiştir.  
-- Duygu analizi sayesinde haberlerin genel duygu dağılımı ortaya konmuş; belirli kategorilerdeki duygu dalgalanmaları gözlenmiştir.  
-- Zaman serisi analizleri, önemli dönemlerdeki duygu ve konu trendlerini başarılı şekilde ortaya koymuştur.  
-
----
-
-## Proje Ekibi
-
-- **Cansu Kahve**  
-- **Melike Tengilimoğlu**  
-
----
-
-## Kullanım Alanları ve Önemi
-
-- Medya analizleri ve halk algısını değerlendirmek için değerli bir araçtır.  
-- LDA ve duygu analizi ile haber içeriklerine dair zengin kavrayış sunar.  
-- Zaman bazlı trend izlemesi, özellikle karar destek süreçlerinde faydalı olabilir.  
-
----
-
-## Lisans
-
-**MIT Lisansı**yle paylaşılmıştır.  
+##License
+Shared under the MIT License.
 
 ---
