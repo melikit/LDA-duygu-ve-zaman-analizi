@@ -1,7 +1,7 @@
 # LDA - Sentiment and Time Analysis
 A comprehensive group project that combines Latent Dirichlet Allocation (LDA)-based topic modeling, sentiment analysis, and time series analysis methods on Turkish news texts.
 
-#Project Summary
+# Project Summary
 Using the BBCNEWS dataset, the following analyses were performed on Turkish news texts:
 Hidden topic structures were identified,
 The sentiment states of the news articles were classified,
